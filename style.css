@@ -1,0 +1,101 @@
+body{
+    box-sizing: border-box;
+    padding: 15px;
+}
+    
+#navbar{
+    background-color: dimgray;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Helvetica;
+}
+#navbar a {
+    color: orange;
+    text-decoration: none;
+}
+#navbar a:hover{
+    color: gold
+}
+*{
+    background-color: rgba(72, 125, 223);
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+/* this is how to target all of your code */
+
+h1 {
+    background-color: rgba(20, 9, 179, 0.5);
+    color: orange;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    background-color: rgba(20, 9, 179, 0.5);
+    color: orange;
+    font-size: 24px;
+}
+/* This is how to target an element within our HTML */
+
+p {
+    color:black;
+    font-family: Helvetica;
+}
+.welcome {
+    background-color: rgba(20, 9, 179, 0.5);
+    color:black;
+    font-size:25px;
+}
+.humour_discussion{
+    background-color: rgba(20, 9, 179, 0.5);
+    color: black;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+.episode_title{
+    color:orange;
+    font-size: 25px;
+}
+.characterbio{
+    color:orange;
+    font-size: 25px;
+}
+.container {
+    background-color: rgba(20, 9, 179, 0.5);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    
+  }
+.charactercontainer {
+    background-color: rgba(20, 9, 179, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.episodecontainer {
+    background-color: rgba(20, 9, 179, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.image > img {
+    display: block;
+    max-width: 100%;
+    max-height: 800px;
+  }
+/* the . before welcome is to distinguish a class that does not already exist in HTML */
+.resize {
+    width: 600px;
+    height: auto;
+}
